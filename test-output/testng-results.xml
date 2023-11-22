@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T19:00:06 EST" name="Suite" finished-at="2023-11-21T19:02:08 EST" duration-ms="122191">
+    <groups>
+    </groups>
+    <test started-at="2023-11-21T19:00:06 EST" name="Test" finished-at="2023-11-21T19:02:08 EST" duration-ms="122191">
+      <class name="com.tutorialninja.testcases.Register_Test">
+        <test-method is-config="true" signature="registerSetUp()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:10 EST" name="registerSetUp" finished-at="2023-11-21T19:01:15 EST" duration-ms="4734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetUp -->
+        <test-method signature="registerAccountWithRequiredFields()[pri:1, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:15 EST" name="registerAccountWithRequiredFields" finished-at="2023-11-21T19:01:16 EST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithRequiredFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:16 EST" name="tearDown" finished-at="2023-11-21T19:01:17 EST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetUp()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:17 EST" name="registerSetUp" finished-at="2023-11-21T19:01:22 EST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetUp -->
+        <test-method signature="registerAccountWithAllFields()[pri:2, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:22 EST" name="registerAccountWithAllFields" finished-at="2023-11-21T19:01:23 EST" duration-ms="1437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithAllFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:23 EST" name="tearDown" finished-at="2023-11-21T19:01:23 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetUp()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:23 EST" name="registerSetUp" finished-at="2023-11-21T19:01:28 EST" duration-ms="4782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetUp -->
+        <test-method signature="registerAccountWithNoFields()[pri:3, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:28 EST" name="registerAccountWithNoFields" finished-at="2023-11-21T19:01:28 EST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccountWithNoFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:28 EST" name="tearDown" finished-at="2023-11-21T19:01:29 EST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetUp()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:29 EST" name="registerSetUp" finished-at="2023-11-21T19:01:34 EST" duration-ms="4971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetUp -->
+        <test-method signature="verifyRegisterWithDuplicateUserName()[pri:4, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:34 EST" name="verifyRegisterWithDuplicateUserName" finished-at="2023-11-21T19:01:35 EST" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithDuplicateUserName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.Register_Test@117159c0]" started-at="2023-11-21T19:01:35 EST" name="tearDown" finished-at="2023-11-21T19:01:35 EST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testcases.Register_Test -->
+      <class name="com.tutorialninja.testcases.CheckOut_ValidProduct_Test">
+        <test-method is-config="true" signature="check_ValidProduct_setUP()[pri:0, instance:com.tutorialninja.testcases.CheckOut_ValidProduct_Test@7ef82753]" started-at="2023-11-21T19:01:55 EST" name="check_ValidProduct_setUP" finished-at="2023-11-21T19:02:00 EST" duration-ms="5520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_ValidProduct_setUP -->
+        <test-method signature="addAValidProductAndCheckOut()[pri:1, instance:com.tutorialninja.testcases.CheckOut_ValidProduct_Test@7ef82753]" started-at="2023-11-21T19:02:00 EST" name="addAValidProductAndCheckOut" finished-at="2023-11-21T19:02:08 EST" duration-ms="7244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAValidProductAndCheckOut -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.CheckOut_ValidProduct_Test@7ef82753]" started-at="2023-11-21T19:02:08 EST" name="closer" finished-at="2023-11-21T19:02:08 EST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+      </class> <!-- com.tutorialninja.testcases.CheckOut_ValidProduct_Test -->
+      <class name="com.tutorialninja.testcases.Login_Test">
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:07 EST" name="loginSetUp" finished-at="2023-11-21T19:00:14 EST" duration-ms="7032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:14 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:15 EST" duration-ms="1176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:15 EST" name="closer" finished-at="2023-11-21T19:00:15 EST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:15 EST" name="loginSetUp" finished-at="2023-11-21T19:00:20 EST" duration-ms="4594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:20 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:21 EST" duration-ms="1036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:21 EST" name="closer" finished-at="2023-11-21T19:00:21 EST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:21 EST" name="loginSetUp" finished-at="2023-11-21T19:00:26 EST" duration-ms="4759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:26 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:27 EST" duration-ms="1021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:27 EST" name="closer" finished-at="2023-11-21T19:00:27 EST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:27 EST" name="loginSetUp" finished-at="2023-11-21T19:00:32 EST" duration-ms="4640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:32 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:33 EST" duration-ms="1058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:33 EST" name="closer" finished-at="2023-11-21T19:00:33 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:33 EST" name="loginSetUp" finished-at="2023-11-21T19:00:37 EST" duration-ms="4493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:37 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:38 EST" duration-ms="989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:38 EST" name="closer" finished-at="2023-11-21T19:00:39 EST" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:39 EST" name="loginSetUp" finished-at="2023-11-21T19:00:43 EST" duration-ms="4725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:43 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:44 EST" duration-ms="1009" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:44 EST" name="closer" finished-at="2023-11-21T19:00:44 EST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:44 EST" name="loginSetUp" finished-at="2023-11-21T19:00:49 EST" duration-ms="4561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyingLoginWithValidUserNameAndValidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:49 EST" name="verifyingLoginWithValidUserNameAndValidPassword" data-provider="TN" finished-at="2023-11-21T19:00:50 EST" duration-ms="961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyingLoginWithValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:50 EST" name="closer" finished-at="2023-11-21T19:00:50 EST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:50 EST" name="loginSetUp" finished-at="2023-11-21T19:00:55 EST" duration-ms="4526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyLoginWithInValidUserNameAndValidPassword()[pri:2, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:55 EST" name="verifyLoginWithInValidUserNameAndValidPassword" finished-at="2023-11-21T19:00:55 EST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUserNameAndValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:55 EST" name="closer" finished-at="2023-11-21T19:00:55 EST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:00:55 EST" name="loginSetUp" finished-at="2023-11-21T19:01:00 EST" duration-ms="4477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyLoginWithValidUserNameAndInValidPassword()[pri:3, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:00 EST" name="verifyLoginWithValidUserNameAndInValidPassword" finished-at="2023-11-21T19:01:01 EST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidUserNameAndInValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:01 EST" name="closer" finished-at="2023-11-21T19:01:01 EST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:01 EST" name="loginSetUp" finished-at="2023-11-21T19:01:05 EST" duration-ms="4151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyLoginWithInValidUserNameAndInValidPassword()[pri:4, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:05 EST" name="verifyLoginWithInValidUserNameAndInValidPassword" finished-at="2023-11-21T19:01:06 EST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInValidUserNameAndInValidPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:06 EST" name="closer" finished-at="2023-11-21T19:01:06 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+        <test-method is-config="true" signature="loginSetUp()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:06 EST" name="loginSetUp" finished-at="2023-11-21T19:01:10 EST" duration-ms="4058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetUp -->
+        <test-method signature="verifyLoginWithNoUserNameAndNoPassword()[pri:5, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:10 EST" name="verifyLoginWithNoUserNameAndNoPassword" finished-at="2023-11-21T19:01:10 EST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoUserNameAndNoPassword -->
+        <test-method is-config="true" signature="closer()[pri:0, instance:com.tutorialninja.testcases.Login_Test@6574a52c]" started-at="2023-11-21T19:01:10 EST" name="closer" finished-at="2023-11-21T19:01:10 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closer -->
+      </class> <!-- com.tutorialninja.testcases.Login_Test -->
+      <class name="com.tutorialninja.testcases.SearchTest">
+        <test-method is-config="true" signature="Search_Product_setUP()[pri:0, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:35 EST" name="Search_Product_setUP" finished-at="2023-11-21T19:01:45 EST" duration-ms="10512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Product_setUP -->
+        <test-method signature="searchProductWithValidProduct()[pri:1, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:45 EST" name="searchProductWithValidProduct" finished-at="2023-11-21T19:01:46 EST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:46 EST" name="tearDown" finished-at="2023-11-21T19:01:46 EST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Search_Product_setUP()[pri:0, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:46 EST" name="Search_Product_setUP" finished-at="2023-11-21T19:01:49 EST" duration-ms="3499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Product_setUP -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:49 EST" name="verifySearchWithInvalidProduct" finished-at="2023-11-21T19:01:50 EST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:50 EST" name="tearDown" finished-at="2023-11-21T19:01:50 EST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="Search_Product_setUP()[pri:0, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:50 EST" name="Search_Product_setUP" finished-at="2023-11-21T19:01:54 EST" duration-ms="4083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Product_setUP -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:54 EST" name="verifySearchWithNoProduct" finished-at="2023-11-21T19:01:55 EST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tutorialninja.testcases.SearchTest@3e27ba32]" started-at="2023-11-21T19:01:55 EST" name="tearDown" finished-at="2023-11-21T19:01:55 EST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tutorialninja.testcases.SearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
